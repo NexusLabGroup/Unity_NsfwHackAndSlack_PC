@@ -198,6 +198,8 @@ MonoBehaviour:
       - rid: 8267088378575192098
       - rid: 8267088378575192099
       - rid: 8267088378575192100
+      - rid: 8267088755811155968
+      - rid: 8267088755811155969
     m_RuntimeSettings:
       m_List: []
   renderingLayerNames:
@@ -898,3 +900,18 @@ MonoBehaviour:
         probeVolumeOffsetDebugShader: {fileID: 4800000, guid: db8bd7436dc2c5f4c92655307d198381, type: 3}
         probeSamplingDebugMesh: {fileID: -3555484719484374845, guid: 20be25aac4e22ee49a7db76fb3df6de2, type: 3}
         numbersDisplayTex: {fileID: 2800000, guid: 73fe53b428c5b3440b7e87ee830b608a, type: 3}
+    - rid: 8267088755811155968
+      type: {class: ColorCheckerResources, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_ColorCheckerMaterial: {fileID: 2100000, guid: 7a1044256d39dba4aa777255550527bf, type: 2}
+    - rid: 8267088755811155969
+      type: {class: WorldRenderPipelineResources, ns: UnityEngine.PathTracing.Core, asm: Unity.PathTracing.Runtime}
+      data:
+        _version: 3
+        _blitCubemap: {fileID: 7200000, guid: 5a992812cb320d146a66cc600200cce7, type: 3}
+        _blitGrayScaleCookie: {fileID: 7200000, guid: 557fa399e33bf7647bda5697c5c158df, type: 3}
+        _setAlphaChannelShader: {fileID: 7200000, guid: 5efaea0e81c66334aa9d062d6573e6fd, type: 3}
+        _pathTracingSkySamplingDataShader: {fileID: 7200000, guid: 5bb2534d2411d344cbc54f880232640f, type: 3}
+        _skyBoxMesh: {fileID: 4300000, guid: 0529e6c5f6dea8c4a8c2835ed7de57cb, type: 2}
+        _sixFaceSkyBoxMesh: {fileID: 4300000, guid: a80925ceebd011741b42509226cefc74, type: 2}
+        _buildLightGridShader: {fileID: 7200000, guid: 16e47c1641bd0104e92b624601457bb0, type: 3}
